@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Materialradiogroup by devsoulwolf</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Materialradiogroup</h1>
+        <h2>This is a cool radio button group!</h2>
+        <a href="https://github.com/devsoulwolf/MaterialRadioGroup" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="materialradiogroup" class="anchor" href="#materialradiogroup" aria-hidden="true"><span class="octicon octicon-link"></span></a>MaterialRadioGroup</h1>
+
+<p>This is a cool radio button group!</p>
+
+<p>For more information please see <a href="http://devsoulwolf.github.io/MaterialRadioGroup">the website</a></p>
+
+<h2>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h2>
+
+<p><img src="https://img.alicdn.com/imgextra/i2/1025192026/TB2viundVXXXXXbXXXXXXXXXXXX_!!1025192026.jpg_310x310.jpg" alt="Sample1">
+<img src="https://img.alicdn.com/imgextra/i1/1025192026/TB2B7xVdVXXXXcxXpXXXXXXXXXX_!!1025192026.jpg_310x310.jpg" alt="Sample2"></p>
+
+<h2>
+<a id="picturechooselib-with-java-code" class="anchor" href="#picturechooselib-with-java-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>PictureChooseLib with Java code</h2>
+
+<div class="highlight highlight-java"><pre><span class="pl-k">&lt;</span><span class="pl-smi">net.soulwolf.widget.materialradio<span class="pl-k">.</span>MaterialRadioGroup</span>
+    android<span class="pl-k">:</span>layout_width<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    android<span class="pl-k">:</span>gravity<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
+    android<span class="pl-k">:</span>layout_marginTop<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>50dp<span class="pl-pds">"</span></span>
+    android<span class="pl-k">:</span>layout_height<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+    android<span class="pl-k">:</span>orientation<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>horizontal<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+
+   <span class="pl-k">&lt;</span><span class="pl-smi">net.soulwolf.widget.materialradio<span class="pl-k">.</span>MaterialRadioButton</span>
+        android<span class="pl-k">:</span>layout_width<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android<span class="pl-k">:</span>layout_height<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcTextSize<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>6sp<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcText<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>男生<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcPadding<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>5dp<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcChecked<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcAnimator<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcTextColor<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>@drawable/radio_button_text_selector<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcButton<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>@drawable/radio_button_boy_selector<span class="pl-pds">"</span></span><span class="pl-k">/</span><span class="pl-k">&gt;</span>
+
+   <span class="pl-k">&lt;</span><span class="pl-smi">net.soulwolf.widget.materialradio<span class="pl-k">.</span>MaterialRadioButton</span>
+        android<span class="pl-k">:</span>layout_width<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        android<span class="pl-k">:</span>layout_marginLeft<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>30dp<span class="pl-pds">"</span></span>
+        android<span class="pl-k">:</span>layout_height<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcAnimator<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcTextSize<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>6sp<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcPadding<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>5dp<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcText<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>女生<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcTextColor<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>@drawable/radio_button_text_selector<span class="pl-pds">"</span></span>
+        soulwolf<span class="pl-k">:</span>mcButton<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>@drawable/radio_button_girl_selector<span class="pl-pds">"</span></span><span class="pl-k">/</span><span class="pl-k">&gt;</span>
+
+<span class="pl-k">&lt;</span><span class="pl-k">/</span><span class="pl-smi">net.soulwolf.widget.materialradio<span class="pl-k">.</span>MaterialRadioGroup</span><span class="pl-k">&gt;</span></pre></div>
+
+<h2>
+<a id="maven" class="anchor" href="#maven" aria-hidden="true"><span class="octicon octicon-link"></span></a>Maven</h2>
+
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;net.soulwolf.widget&lt;/groupId&gt;
+    &lt;url&gt;https://dl.bintray.com/soulwolf/maven&lt;/url&gt;
+    &lt;artifactId&gt;materialRadio&lt;/artifactId&gt;
+    &lt;version&gt;1.0.1&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<h2>
+<a id="gradle" class="anchor" href="#gradle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gradle</h2>
+
+<pre><code>allprojects {
+   repositories {
+      jcenter()
+   }
+}
+
+compile 'net.soulwolf.image:materialRadio:1.0.1'
+</code></pre>
+
+<h2>
+<a id="developed-by" class="anchor" href="#developed-by" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developed by</h2>
+
+<p>Ching Soulwolf - <a href="mailto:Ching.Soulwolf@gmail.com">Ching.Soulwolf@gmail.com</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<pre><code>Copyright 2015 Soulwolf Ching
+Copyright 2015 The Android Open Source Project for MaterialRadioGroup
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</code></pre>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/devsoulwolf/MaterialRadioGroup/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/devsoulwolf/MaterialRadioGroup/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/devsoulwolf/MaterialRadioGroup"></a> is maintained by <a href="https://github.com/devsoulwolf">devsoulwolf</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("MaterialRadioGroup");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
