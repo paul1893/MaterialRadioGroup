@@ -13,6 +13,7 @@ For more information please see <a href='http://devsoulwolf.github.io/MaterialRa
 
 <net.soulwolf.widget.materialradio.MaterialRadioGroup
     xmlns:soulwolf="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/material_radio_group"
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_marginTop="50dp"
@@ -20,6 +21,7 @@ For more information please see <a href='http://devsoulwolf.github.io/MaterialRa
     android:orientation="horizontal">
 
    <net.soulwolf.widget.materialradio.MaterialRadioButton
+	    android:id="@+id/material_radio_button_boy"
 	    android:layout_width="wrap_content"
 	    android:layout_height="match_parent"
 	    soulwolf:mcTextSize="6sp"
@@ -31,6 +33,7 @@ For more information please see <a href='http://devsoulwolf.github.io/MaterialRa
 	    soulwolf:mcButton="@drawable/radio_button_boy_selector"/>
 	
    <net.soulwolf.widget.materialradio.MaterialRadioButton
+	    android:id="@+id/material_radio_button_girl"
 	    android:layout_width="wrap_content"
 	    android:layout_marginLeft="30dp"
 	    android:layout_height="match_parent"
@@ -58,7 +61,9 @@ For more information please see <a href='http://devsoulwolf.github.io/MaterialRa
        }
 	}
 	
-	compile 'net.soulwolf.widget:materialRadio:1.0.1'
+	com.thefrenchtouch.lib:materialRadio:1.0.2
+// When the bintray repository of Soulwolf will be updated, please use this one
+// compile 'net.soulwolf.widget:materialRadio:1.0.2’
 
 ## Developed by
  Ching Soulwolf - <a href='javascript:'>Ching.Soulwolf@gmail.com</a>
